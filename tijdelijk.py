@@ -11,7 +11,7 @@ aanbieding = prijzen["aardbei"] * 0.8
 
 #variabele reclame_tekst
 reclame_tekst = f"Vandaag in de aanbieding: aardbei-ijs, 1 liter – slechts € {aanbieding}"
-reclame_tekst2 = reclame_tekst[:62]
+reclame_tekst2 = reclame_tekst[:63]
 
 #print(reclame_tekst)
 #print(reclame_tekst2)
