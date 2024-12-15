@@ -6,10 +6,11 @@ def mijn_functie_1(a):
 
 #Huiswerk opgave 3
 def mijn_functie_2(a,b):
-    som = a + b
-    aftrekking = a - b
-    vermenigvuldiging = a * b
-    deling = int(a / b)
-    return som,aftrekking,vermenigvuldiging,deling
-resultaat = mijn_functie_2(12,3)
-#print(resultaat)
+    uitvoer_lijst = []
+    uitvoer_lijst.append(a+b)
+    uitvoer_lijst.append(a-b)
+    uitvoer_lijst.append(a*b)
+    uitvoer_lijst.append(a/b)
+    return uitvoer_lijst
+
+#print(mijn_functie_2(12,3))

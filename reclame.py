@@ -62,6 +62,5 @@ def combinatie(invoer_lijst_2):
     uitvoer = mijn_functie_2(korte_lijst[0], korte_lijst[1])
     return uitvoer
 
-invoer_lijst_2 = [12, 5]
-resultaat = combinatie(invoer_lijst_2)
-print(resultaat)
+combinatie = combinatie([10,5,3,2,1,2,9])
+print(combinatie)
