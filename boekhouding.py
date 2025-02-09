@@ -14,15 +14,15 @@ inkomsten = {
 }
 
 #huiswerk 10 punt 5
-totaal_inkomsten = som(inkomsten)
+totaal_inkomsten = helper.som(inkomsten)
 #print(totaal_inkomsten)
 
 #huiswerk 10 punt 10
-presenteer = (inkomsten,totaal_inkomsten)
+presenteer = presentatie.presenteer(inkomsten, totaal_inkomsten)
 print(presenteer)
 
-#huiswerk 10 punt 12
-with open('boekhouding.csv’, 'w',newline='') as csvfile:
-      for key, value in inkomsten.items():
-      writer = csv.writer(csvfile, delimiter=';')
-      writer.writerow([key,value])
+# #huiswerk 10 punt 12
+# with open('boekhouding.csv', 'w',newline='') as csvfile:
+#       for key, value in inkomsten.items():
+#         writer = csv.writer(csvfile, delimiter=';')
+#         writer.writerow([key,value])
